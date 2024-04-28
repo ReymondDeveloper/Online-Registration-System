@@ -1,0 +1,67 @@
+.box-container{
+    /* border: 2px solid white; */
+    height: 450px;
+    width: 50%;
+    
+    background-color: #fff;
+    
+    border-radius: 10px;
+}
+.box-left{
+    background-image: url('../assets/student-8295511_1280.webp');
+    background-size: cover;
+    /* border: 3px solid red; */
+    height: 450px;
+    width: 383px;
+    text-align: center;
+    position: relative;
+    border-radius: 10px;
+    
+}
+.box-right{
+    /* border:2px solid blue ; */
+    
+    border-radius: 10px;
+    position: relative;
+    right: -384px;
+    height: 450px;
+    width: 380px;
+}
+form {
+    display: grid;
+    gap: 10px;
+    /* border: 2px solid red; */
+    position: relative;
+    bottom: -20%;
+}
+.input-field{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-field input{
+    height: 38px;
+    width: 290px;
+    font-size: 18px;
+    padding: 12px;
+    border-radius: 4px;
+}
+
+.btn{
+    font-family:Georgia ;
+    font-weight: 600    ;
+}
+
+.input-field .btn{
+    position: relative;
+    height: 38px;
+    width: 290px;
+}
+.logo-reg{
+    font-family: Georgia;
+    font-weight: 600;
+    color: #1976d2;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+/*  */
